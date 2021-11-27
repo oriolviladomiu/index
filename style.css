@@ -1,0 +1,158 @@
+body{
+	background-image: url("images/background.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: lightgrey;
+	color: white;
+	font-family: Arial;
+	text-align: center;
+}
+h1{
+	color: white;
+	font-family: Helvetica;
+	font-weight: 169;
+	letter-spacing: 3px;
+	font-size: 76px;
+}
+h2{
+	color: red;
+	font-family: Helvetica;
+	font-weight: 169;
+	letter-spacing: 3px;
+	font-size: 50px;
+	font-weight: bold;
+}
+p{
+	color: ghostwhite;
+	font-family: Helvetica;
+	font-weight: 169;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+p span{
+	background-color: rgba(200, 200, 200, 1.0);
+}
+a{
+	color: white;
+	font-weight: 900;
+	text-decoration: none;
+	margin-top: 10px;
+}
+a:hover{
+	color: black;
+}
+ul{
+	text-align: center;
+	list-style-position: inside;
+}
+
+
+/* Custom design with class */
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white{
+	background-color: rgb(13, 15, 128);
+	padding: 40px;
+	box-shadow: 0px 0px 5px red;
+	border-radius: 7px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.button-red{
+	background-color: red;
+	padding: 15px 20px;
+	border-radius: 7px;
+}
+.button-red:hover{
+	background-color: lightgrey;
+}
+.button-margin{
+	margin-top: 40px;
+	margin-bottom: 5px;
+}
+.image-circle{
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px white;
+	width: 300px;
+}
+.text-italic{
+	font-style: italic;
+}
+
+.box-white{
+	background-color: white;
+	border-radius: 7px;
+	padding: 10px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+
+/* Custom design with id */
+
+#welcoming h1 {
+	background-color: red;
+	border-radius: 7px;
+	box-shadow: 0px 0px 5px white;
+	margin: 10px auto;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#margin-top h2{
+	margin-top: 0px;
+}
+#margin-top1 h2{
+	margin-top: 0px;
+}
+#margin-top2 h2{
+	margin-top: 0px;
+}
+#margin-top3 h2{
+	margin-top: 0px;
+}
+#margin-top4 h2{
+	margin-top: 0px;
+}
+#icon-inline{
+	list-style-type: none;
+}
+
+#icon-inline i{
+	font-size: 50px;
+	color: green;
+	display: inline;
+}
+
+
+
+
+
+
